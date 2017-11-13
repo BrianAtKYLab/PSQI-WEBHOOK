@@ -1,6 +1,6 @@
 {
   "name": "osa-detector",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "KYLab OSA Detector app web service",
   "repository": "https://github.com/BrianAtKYLab/PSQI-WEBHOOK.git",
   "private": true,
