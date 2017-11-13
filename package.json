@@ -1,7 +1,7 @@
 {
   "name": "osa-detector",
-  "version": "1.0.0",
-  "description": "End to end sample for running Node.js applications on Google Cloud Platform",
+  "version": "1.0.1",
+  "description": "KYLab OSA Detector app web service",
   "repository": "https://github.com/BrianAtKYLab/PSQI-WEBHOOK.git",
   "private": true,
   "scripts": {
