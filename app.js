@@ -31,13 +31,10 @@ app.get('/', (req, res) => {
 
 app.post('/psqi', (req, res) => {
   var datas = req.body;
-  console.log('data from google form',datas)
+  console.log('datas from google form',datas)
   for (var j = 0; j < datas.length; j++) {
     var data = datas[j];   
-    console.log('Question "%s" was "%s"',        
-        data.getItem().getTitle(),
-        data.getResponse());
-  }
+    console.log('data object',j, ':', data)  }
   res.status(200).send('true');
 });
 
