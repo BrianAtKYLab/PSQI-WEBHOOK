@@ -30,8 +30,14 @@ app.get('/', (req, res) => {
 });
 
 app.post('/psqi', (req, res) => {
-  var data = req.body;
-  console.log('data from google form',data)
+  var datas = req.body;
+  console.log('data from google form',datas)
+  for (var j = 0; j < data.length; j++) {
+    var data = datas[j];   
+    console.log('Question "%s" was "%s"',        
+        data.getItem().getTitle(),
+        data.getResponse());
+  }
   res.status(200).send('true');
 });
 
