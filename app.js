@@ -36,8 +36,8 @@ app.post('/psqi', (req, res) => {
     var data = datas[j];   
     console.log('data object',j, ':', data)  }
 
-    var userId = datas[0]
-    console.log(usreId);
+    var userId = datas['0']
+    console.log(userId);
     io.emit(userId, {"hello":"HELLO WORLD"});
 
   res.status(200).send('true');
